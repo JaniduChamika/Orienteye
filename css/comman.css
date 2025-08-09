@@ -1,0 +1,587 @@
+:root {
+    --bluetheam: rgb(0, 162, 255);
+    --boxshadow: 0px 0px 10px 0px rgba(61, 61, 61, 0.2);
+    --backtheme: black;
+    --tilesTheam: #292929;
+    --textcolor: white;
+    --lightdarkTiles: #4b4b4b;
+    --transbtnborder: solid 1px white;
+    --serviceimg: rgba(44, 44, 44, 0.253);
+    --tranceack: #000000;
+}
+
+.btn,
+.btn-close {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.toast .btn-close {
+    background-image: none;
+}
+
+.transbox {
+    background-color: #0000007e;
+}
+
+.tracsdark {
+    background-color: var(--tranceack);
+    /* background-color: #0000004b; */
+    left: 0px;
+    transition-duration: 1000ms;
+}
+
+@font-face {
+    font-family: "arial";
+    src: url("fonts/ARIAL.TTF");
+}
+
+@font-face {
+    font-family: "century";
+    src: url("..//fonts//CENTURY.TTF");
+}
+
+@font-face {
+    font-family: "jost";
+    src: url("..//fonts//Jost-Regular.ttf");
+}
+
+@font-face {
+    font-family: "raj";
+    src: url("..//fonts//Rajdhani-Medium.ttf");
+}
+
+* {
+    font-family: "raj";
+    font-size: 18px;
+}
+
+.btn:focus,
+.btn-close:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:active,
+.btn-close:active {
+    border: none;
+}
+
+.form-control {
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.form-select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.latestTitel {
+    color: var(--bluetheam);
+}
+
+
+/* button css  */
+
+.lblue-outline {
+    /* border: none; */
+    transition-duration: 500ms;
+    background-color: #00a2ff;
+    color: white;
+    padding: 10px;
+    /* border-radius: 5px; */
+    /* border: solid 2px rgb(0, 162, 255); */
+}
+
+.lblue-outline:hover {
+    background-color: rgb(1, 129, 204);
+    color: white;
+}
+
+.lblue-outline:active {
+    transition-duration: 0s;
+    background-color: rgb(0, 142, 224);
+    color: white;
+    /* border: solid 2px rgb(0, 162, 255); */
+}
+
+.dsilever-outline {
+    transition-duration: 500ms;
+    /* border-radius: 5px; */
+    color: white;
+    padding: 10px;
+    background-color: #008ee0;
+    /* border: solid 2px rgb(68, 68, 68); */
+}
+
+.dsilever-outline:hover {
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+.dsilever-outline:active {
+    transition-duration: 0s;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.lbluebtn {
+    background-color: #00a2ff;
+    color: white;
+}
+
+.lbluebtn:hover {
+    /* transition-duration: 0s; */
+    background-color: #01b7ff;
+    color: white;
+}
+
+.lbluebtn:active {
+    transition-duration: 0s;
+    background-color: #0082ce;
+    color: white;
+}
+
+.shadow-lbten {
+    box-shadow: 0px 5px 10px 0px #0000003b;
+}
+
+.shadow-lbten:focus {
+    box-shadow: 0px 5px 10px 0px #0000003b;
+}
+
+.shadow-lbten:active {
+    box-shadow: none;
+}
+
+.dsilverbtn {
+    background-color: #444444;
+}
+
+.dsilverbtn:hover {
+    background-color: #5f5f5f;
+}
+
+.dsilverbtn:active {
+    background-color: rgb(41, 41, 41);
+}
+
+.darkbtn {
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+
+.darkbtn:hover {
+    color: rgb(0, 194, 253);
+}
+
+.darkbtn:active {
+    color: white;
+    background-color: black;
+}
+
+.bdbtn {
+    background-color: #2C3E50;
+    /* transition-duration: 500ms; */
+    color: white;
+}
+
+.bdbtn:hover {
+    background-color: #2a4868;
+    color: white;
+}
+
+.bdbtn:active {
+    background-color: #233241;
+}
+
+.bdbtngreen {
+    background-color: #036800;
+    color: white;
+}
+
+.bdbtngreen:hover {
+    background-color: #017528;
+    color: white;
+}
+
+.bdbtngreen:active {
+    background-color: #00410d;
+}
+
+.redbtn {
+    background-color: red;
+    color: white;
+}
+
+.redbtn:hover {
+    background-color: rgb(255, 57, 57);
+    color: white;
+}
+
+.redbtn:active {
+    background-color: rgb(196, 0, 0);
+}
+
+.orangedbtn {
+    background-color: #ac4e10;
+    color: white;
+}
+
+.orangedbtn:hover {
+    background-color: #c45d18;
+    color: white;
+}
+
+.orangedbtn:active {
+    background-color: #a0470b;
+    color: white;
+}
+
+.yellobtn {
+    background-color: #fbc511;
+    color: white;
+}
+
+.yellobtn:hover {
+    background-color: #fbd811;
+    color: white;
+}
+
+.yellobtn:active {
+    background-color: #f3bb02;
+    color: white;
+}
+
+.reddbtn {
+    background-color: #831717;
+    color: white;
+}
+
+.reddbtn:hover {
+    background-color: #971c1c;
+    color: white;
+}
+
+.reddbtn:active {
+    background-color: #771414;
+    color: white;
+}
+
+
+/* end button css  */
+
+.bac {
+    background-color: #5CC7FF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='172' height='172' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23419AFF' fill-opacity='0.42' points='120 120 60 120 90 90 120 60 120 0 120 0 60 60 0 0 0 60 30 90 60 120 120 120 '/%3E%3C/svg%3E");
+}
+
+.bac1 {
+    background-color: #419aff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='540' height='450' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-indigo {
+    background-color: indigo;
+}
+
+.fixtheamBtn {
+    position: fixed;
+    /* left: 50px; */
+    bottom: 20px;
+    z-index: 10;
+}
+
+.themebtn {
+    font-size: 25px;
+    border: solid 2px black;
+    outline: none;
+    box-shadow: none;
+}
+
+.themebtn:active {
+    box-shadow: none;
+}
+
+.themebtn:focus {
+    box-shadow: none;
+    border: solid 2px black;
+}
+
+.themebtn:checked {
+    background-color: black;
+    border: solid 2px white;
+}
+
+.form-check-input:active {
+    box-shadow: none;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+
+/* font color */
+
+.f-green {
+    color: green;
+}
+
+
+/* pagination */
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #2C3E50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+
+/* pagination */
+
+.chatboxclient {
+    right: 0px;
+    height: 20%;
+    background-color: white;
+    transition-duration: 500ms;
+    opacity: 0;
+    z-index: 9000000000;
+}
+
+.chathide {
+    /* background-color: blueviolet; */
+    height: 7%;
+    border-bottom: solid 1px #00000027;
+}
+
+.chatmsgbox {
+    /* background-color: burlywood; */
+    height: 7%;
+}
+
+.msgcontentBox {
+    /* background-color: cadetblue; */
+    height: 86%;
+}
+
+.chatlogo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("..//resourse//logo//logo2.png");
+    background-size: 50%;
+    background-color: white;
+    border-radius: 100%;
+    height: 45px;
+    width: 45px;
+    border: solid 1px rgba(0, 0, 0, 0.158);
+}
+
+.comName {
+    height: 45px;
+    flex: 0 0 auto;
+    /* margin-top: -20px; */
+}
+
+.chatfiled {
+    border: none;
+    resize: none;
+}
+
+.chatopnbtn {
+    /* background-color: #00aeff; */
+    border-radius: 100%;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    /* box-shadow: 0px 0px 10px 0px #00000049; */
+    text-shadow: 1px 1px 10px #0000003d;
+    color: #00aeff;
+}
+
+.fontchatbtn {
+    font-size: 70px;
+    /* transition-duration: 500ms; */
+}
+
+.fontchatbtn:hover {
+    color: #00ccff;
+}
+
+.fontchatbtn:active {
+    font-size: 66px;
+    color: #00a2ec;
+}
+
+.chatbtnhide {
+    transition-duration: 500ms;
+    font-size: 0px;
+}
+
+.chathight {
+    height: 100%;
+    opacity: 1;
+}
+
+@media (min-width:992px) {
+    .chatboxclient {
+        right: 20px;
+        height: 0px;
+        bottom: 0;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.247);
+        transition-duration: 1s;
+        opacity: 1;
+    }
+    .chathide {
+        height: 50px;
+        top: 0;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .chatmsgbox {
+        margin-top: auto;
+        margin-bottom: 0px;
+        top: auto;
+        bottom: 0px;
+        height: 50px;
+    }
+    .msgcontentBox {
+        height: 400px;
+    }
+    .chatlogo {
+        height: 35px;
+        width: 35px;
+        flex: 0 0 auto;
+    }
+    .chathight {
+        height: 500px;
+    }
+}
+
+.error_css {
+    padding-top: 0px;
+    font-size: 12px;
+    padding-left: 3px;
+    height: 16px;
+}
+
+.red-border {
+    border: solid 1px red;
+}
+
+.labeltog {
+    width: 50px;
+    height: 24px;
+    background-color: #111;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+
+/*  target the elemenent after the label*/
+
+.checkbox:checked+.labeltog .ball {
+    transform: translateX(24px);
+}
+
+.icofont-moon {
+    color: pink;
+    font-size: 15px;
+}
+
+.icofont-sun-alt {
+    color: yellow;
+    font-size: 15px;
+}
+
+
+/*prloader*/
+
+
+/* loadingScreen  */
+
+.loadingScreen {
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* transition-duration: 10s; */
+}
+
+.topimgBox {
+    /* background-color: aqua; */
+    height: 410px;
+    /* background-image: url("..//resourse//contactus//contactus.png"); */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    z-index: 000;
+}

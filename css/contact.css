@@ -1,0 +1,138 @@
+:root {
+    --bluetheam: rgb(0, 162, 255);
+    --boxshadow: 0px 0px 10px 0px rgba(61, 61, 61, 0.2);
+    --backtheme: black;
+    --tilesTheam: #292929;
+    --textcolor: white;
+    --lightdarkTiles: #4b4b4b;
+    --transbtnborder: solid 1px white;
+    --serviceimg: rgba(44, 44, 44, 0.253);
+    --black50: #00000075;
+    --white50: #ffffff73;
+}
+
+@font-face {
+    font-family: "century";
+    src: url("..//fonts//CENTURY.TTF");
+}
+
+@font-face {
+    font-family: "teko";
+    src: url("..//fonts//Teko-Bold.ttf");
+}
+
+.fs-teko {
+    font-family: "teko";
+}
+
+.sendMsgBox {
+    background-color: blue;
+    height: 200px;
+    color: var(--textcolor);
+}
+
+.con {
+    background-color: var(--tilesTheam);
+    /* height: 500px; */
+    z-index: 2;
+}
+
+.transbox {
+    background-color: #0000007e;
+}
+
+.topimgBox {
+    /* background-color: aqua; */
+    height: 410px;
+    /* background-image: url("..//resourse//contactus//contactus.png"); */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    z-index: 000;
+}
+
+.contentTop * {
+    color: var(--textcolor);
+    /* height: 500px; */
+}
+
+.textcol {
+    color: var(--textcolor);
+}
+
+.textcol:hover {
+    color: var(--textcolor);
+}
+
+.admininfo {
+    color: var(--textcolor);
+    /* height: 300px; */
+}
+
+.social {
+    color: var(--textcolor);
+    font-size: 33px;
+    padding: 5px;
+}
+
+.inputfeilds {
+    color: var(--textcolor);
+    background-color: var(--lightdarkTiles);
+    border: solid 1px rgba(0, 0, 0, 0.24);
+}
+
+.inputfeilds:focus {
+    color: var(--textcolor);
+    background-color: var(--lightdarkTiles);
+    border: black 1px solid;
+}
+
+.inputfeilds:active {
+    color: var(--textcolor);
+    background-color: var(--lightdarkTiles);
+}
+
+.inputfeilds::placeholder {
+    color: rgb(204, 204, 204);
+}
+
+.adminImg-right {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 23px;
+    border-top-left-radius: 23px;
+}
+
+.adminImg-left {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 23px;
+    border-top-right-radius: 23px;
+}
+
+.adminimgbox-right {
+    border: solid 3px var(--textcolor);
+    border-right: solid 8px var(--textcolor);
+    border-top: solid 8px var(--textcolor);
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.adminimgbox-left {
+    border: solid 3px var(--textcolor);
+    border-left: solid 8px var(--textcolor);
+    border-top: solid 8px textcolor;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.adminindetails {
+    color: var(--textcolor);
+    /* background-color: burlywood; */
+}
+
+.tb-50 {
+    color: var(--white50);
+}
