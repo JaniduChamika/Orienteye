@@ -4,10 +4,8 @@ A responsive web application designed for software companies to showcase their s
 
 ## 🚀 Demo
 
-![Demo Video](demo/portfolio-demo.gif)
-*[Add your demo video/GIF here - recommended 30-60 seconds showing key features]*
+[![Orienteye Solution Web App Demo](https://img.youtube.com/vi/-D1pSItcxpo/0.jpg)](https://www.youtube.com/watch?v=-D1pSItcxpo)
 
-**[Live Demo](your-demo-url-here)** *(Replace with your hosted demo URL)*
 
 ## 📋 Features
 
